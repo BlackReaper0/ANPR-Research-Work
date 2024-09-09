@@ -1,4 +1,4 @@
-# Vehicle Movement Analysis and Insight Generation in a College Campus using Edge AI
+# Automatic Number Plate Recognition: A Deep Dive into YOLOv8 and ResNet-50 Integration
 
 ## Introduction
 
@@ -109,3 +109,7 @@ This project aims to analyze vehicle movement and parking within a college campu
    ```bash
    python .\main_image.py
    ```
+
+## Research Paper
+
+[Visit Page](https://ieeexplore.ieee.org/document/10498318)
