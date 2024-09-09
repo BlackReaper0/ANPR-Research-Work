@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This project aims to analyze vehicle movement and parking within a college campus to enhance security and management. The solution captures vehicle images, recognizes license plates, and matches them to an approved vehicle database to identify unauthorized vehicles.
+The recognition of vehicles and their license plates is critical for modern control and surveillance systems. However, manually identifying car number plates, especially in high-traffic areas or parking zones, is both time-consuming and challenging for human operators. This task becomes even more complex in the context of Indian vehicles, where adherence to standardized license plate formats is often inconsistent.
+
+This research focuses on developing a robust Automated Number Plate Recognition (ANPR) system capable of performing well under diverse conditions typically encountered in India. Unlike conventional approaches that are limited to specific environments, the proposed model is designed to adapt to various scenarios, including different lighting conditions and plate angles. By utilizing YOLOv8 for efficient object detection and ResNet-50 for advanced feature extraction, the system delivers high accuracy in both number plate localization and character recognition.
 
 ## Table of Contents
 
