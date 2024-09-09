@@ -14,8 +14,6 @@ This project aims to analyze vehicle movement and parking within a college campu
   - [Image Processing Operations](#image-processing-operations)
   - [License Plate Recognition](#license-plate-recognition)
 - [SQL Database Integration](#sql-database-integration)
-- [Interface](#interface)
-- [Node.js Backend](#nodejs-backend)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -75,25 +73,6 @@ This project aims to analyze vehicle movement and parking within a college campu
   - `anpr`: Logs ANPR events with license plate and state information.
 - **Data Insertion Logic**: Updates or inserts data based on confidence scores and vehicle detection.
 
-## Interface
-
-- **Navigation Bar**: Access to Home, Records, and Feedback pages.
-- **Modal Login Form**: Seamless user login experience.
-- **Feedback Form**: Collects user inputs and suggestions.
-- **Team Section**: Showcases team member details.
-- **Footer**: Helpful links and contact information.
-- **Dynamic Table**: Admin can see the license plate credentials and the rest of the corresponding information in a tablular manner.
-
-## Node.js Backend
-
-- **Dependencies**:
-  - `"app": "^0.1.0"`
-  - `"ejs": "^3.1.9"`
-  - `"express": "^4.18.2"`
-  - `"mysql": "^2.18.1"`
-  - `"node": "^19.8.1"`
-- **Dev Dependencies**:
-  - `"nodemon": "^2.0.22"`
 - **Features**:
   - MySQL integration for CRUD operations.
   - HTTP request handling and static file serving.
@@ -103,8 +82,8 @@ This project aims to analyze vehicle movement and parking within a college campu
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/BlackReaper0/Intel-Unnati.git
-   cd Intel-Unnati
+   git clone https://github.com/BlackReaper0/ANPR-Research-Work.git
+   cd ANPR-Research-Work
    ```
 2. Create a Python Virtual Environment:
    ```bash
@@ -115,24 +94,18 @@ This project aims to analyze vehicle movement and parking within a college campu
    .\environment_name\Scripts\activate
    ```
 4. Install the required Python packages:
+
    ```bash
    pip install -r requirements.txt
    ```
-5. Install the required Node.js packages:
-   ```bash
-   npm install
-   ```
-6. Now Setup a Database and Create the required Tables according to the give schema:
 
-7. Change the Database Credentials in connection.js and in the main.py files.
+5. Now Setup a Database and Create the required Tables according to the give schema:
+
+6. Change the Database Credentials in connection.js and in the main.py files.
 
 ## Usage
 
 1. Run the python scripts for ANPR system:
    ```bash
    python .\main_image.py
-   ```
-2. Start the Node.js server:
-   ```bash
-   nodemon .\index.js
    ```
